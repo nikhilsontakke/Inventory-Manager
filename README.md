@@ -18,4 +18,6 @@ Database Mangement is done using MYSQL and front-end is done using Netbeans.
 # Legal
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by any company or organization. This is an independent and unofficial software. Use at your own risk.
 # License 
-https://github.com/github/gitignore/blob/master/LICENSE 
+nikhilsontakke/Inventory-Manager is licensed under the
+MIT License
+
