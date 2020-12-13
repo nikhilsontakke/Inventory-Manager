@@ -15,6 +15,11 @@ Database Mangement is done using MYSQL and front-end is done using Netbeans.
 2. Mysql Community Version 8.0.1
 3. Java Development Environment
 4. JDBC connector 8.0.1
+# Setup
+1. Install MySql 8 and run it on localhost port 3306
+2. Create Database by name 'inventorymanager'
+3. Create Tables by name 'logincredentials,vendor,product,employees' (for parameters refer .java files)
+4. Run project Files 
 # Legal
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by any company or organization. This is an independent and unofficial software. Use at your own risk.
 # License 
