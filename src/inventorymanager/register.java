@@ -73,6 +73,8 @@ public class register extends javax.swing.JFrame {
         });
         jPanel1.add(Register);
         Register.setBounds(230, 580, 180, 50);
+
+        check.setContentAreaFilled(false);
         jPanel1.add(check);
         check.setBounds(80, 520, 90, 40);
 

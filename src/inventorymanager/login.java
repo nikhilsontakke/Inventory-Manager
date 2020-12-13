@@ -145,7 +145,7 @@ public class login extends javax.swing.JFrame {
             try{
                 Class.forName("com.mysql.jdbc.Driver");
                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost/inventorymanager","root","nikhil");  
-                Statement st=con.createStatement();
+                Statement st = con.createStatement();
                 ResultSet rs;
                 rs = st.executeQuery("select * from logincredentials");
                 while(rs.next()){
