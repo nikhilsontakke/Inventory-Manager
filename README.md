@@ -18,8 +18,14 @@ Database Mangement is done using MYSQL and front-end is done using Netbeans.
 # Setup
 1. Install MySql 8 and run it on localhost port 3306
 2. Create Database by name 'inventorymanager'
-3. Create Tables by name 'logincredentials,vendor,product,employees' (for parameters refer .java files)
+3. Create Tables by name 'logincredentials,vendor,product,employees' (for parameters refer database section below)
 4. Run project Files 
+# Database Information
+There are four diffrent tables with the following description in the database named as inventorymanager
+1. "logincredentils" table stores information of administrator persons and has parameters as - (name varchar(20),username varchar(20),password varchar (20),licensekey varchar(20),company varchar(20))
+2. "vendor" table stores information about vendor has parameters as - (name varchar(20),number bigint(10),email varchar(20),address varchar(30))
+3. "product" table stores information about the current inventory status and has parameters as -(name varchar(20),productcode varchar(20),companyname varchar(20),quantity varchar(20))
+4. "employees" table stores information of employees currently employed at the company as has parameters as - (name varchar(20),employeeid varchar(20),category varchar(20),number varchar(20))
 # Legal
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by any company or organization. This is an independent and unofficial software. Use at your own risk.
 # License 
