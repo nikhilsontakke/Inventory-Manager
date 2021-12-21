@@ -13,8 +13,8 @@ Database Mangement is done using MYSQL and front-end is done using Netbeans.
 # Software Requirements 
 1. Netbeans 8.1 or higher
 2. Mysql Community Version 8.0.1
-3. Java Development Environment
-4. JDBC connector 8.0.1 - (Easy download link - https://static.javatpoint.com/src/jdbc/mysql-connector.jar)
+3. Java Development Kit
+4. JDBC connector 8.0.1 - (Easy download link - https://jar-download.com/artifacts/mysql/mysql-connector-java/8.0.11/source-code )
 # Setup
 1. Install MySql 8 and run it on localhost port 3306
 2. Create Database by name 'inventorymanager'
